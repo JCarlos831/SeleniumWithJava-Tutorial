@@ -22,6 +22,22 @@ public class Practice1 {
 		
 		// Identify "linkText" of the forgot password link and click
 		driver.findElement(By.linkText("Forgot account?")).click();
+		
+		// Navigate to Salesforce Login Page
+		driver.get("https://login.salesforce.com");
+		
+		// Identify id for username
+		driver.findElement(By.id("username")).sendKeys("hello");
+		
+		// Identify password field
+		driver.findElement(By.name("pw")).sendKeys("123456");
+		
+		// Click log in button
+//		driver.findElement(By.className("button r4 wide primary")).click(); // Error due to compound class name
+		
+		// Click login button via xpath
+		driver.findElement(By.xpath("//*[@id=\"Login\"]")).click();
+		
 	}
 
 }

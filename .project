@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>selenium-real-time-examplesinterview-questions</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+        <nature>org.eclipse.jct.core.javanature</nature>
+	</natures>
+</projectDescription>
