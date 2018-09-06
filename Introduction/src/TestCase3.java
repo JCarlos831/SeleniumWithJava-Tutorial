@@ -1,7 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class TestCase3 {
@@ -19,7 +18,7 @@ public class TestCase3 {
 		System.out.println(driver.getTitle());
 		
 		driver.findElement(By.name("q")).sendKeys("selenium" + Keys.ENTER);
-//		driver.quit();
+		driver.quit();
 	}
 
 }

@@ -38,6 +38,9 @@ public class Practice1 {
 		// Click login button via xpath
 		driver.findElement(By.xpath("//*[@id=\"Login\"]")).click();
 		
+		// Quit the browser
+		driver.quit();
+		
 	}
 
 }
